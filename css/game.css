@@ -9,4 +9,4 @@
 .bb {width: 200px; height: 80px; background-color: aqua; text-align: center; margin-top: 20px; text-decoration: none; color: black; position: relative;}
 .yg {width: 40px; margin-top: 15px; margin-left: -20px;}
 .pp {font-size: 50px; color: snow; text-align: center;}
-.pp:hover {color: black;}
+.pp:hover {color: black; cursor: pointer; }
