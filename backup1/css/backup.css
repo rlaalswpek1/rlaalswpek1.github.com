@@ -1,0 +1,7 @@
+*{margin: 0; padding: 0; box-sizing: border-box}
+
+.wrap {width: 1400px; height: 1000px; margin: 0 auto; position: relative; background-image: url(../img/castle.png); background-repeat: no-repeat; background-size: contain; text-align: center;}
+.title {text-align: center; font-style: italic; color: snow; padding-top: 10px;}
+.back {width: 800px; height: 400px; background-color: white; margin-top: 80px; margin-left: -400px; position: absolute; font-size: 120px; background-image: url(../img/pa.jpg); background-repeat: no-repeat; text-align: center;}
+.pl {width: 80px; height: 80px; background-color: white; border-radius: 15%; text-align: center; font-size: 50px; margin-top: 550px; margin-left:-100px; position: absolute; cursor: pointer;}
+.ma {width: 80px; height: 80px; background-color: white; border-radius: 15%; text-align: center; font-size: 50px; margin-top: 550px; margin-left: 20px; position: absolute; cursor: pointer;}

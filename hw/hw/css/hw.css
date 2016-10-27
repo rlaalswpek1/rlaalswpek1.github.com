@@ -1,0 +1,9 @@
+*{margin: 0; padding: 0; box-sizing: border-box;} 
+
+.wrap {width: 1000px; height: 800px; margin: 0 auto; position: relative; padding-top: 20px; background-image: url(../img/chipan.jpg); background-repeat: no-repeat; background-size: contain; text-align: center;}
+.title {text-align: center; font-style: italic; color: snow; padding-top: 10px;}
+.box1 {width: 300px; height: 150px; background-color: white; margin-top: 100px;  margin-left: 150px; position: absolute; font-size: 120px;}
+.box2 {width: 300px; height: 150px; background-color: white; margin-top: 100px; margin-left: 620px; position: absolute; font-size: 120px;}
+.btn1 {width: 100px; height: 100px; margin-top: 300px; margin-left: 200px; text-align: center; font-size: 60px; background-color: white; position: absolute; cursor: pointer;}
+.btn2 {width: 100px; height: 100px; margin-top: 300px; margin-left: 460px; text-align: center; font-size: 60px; background-color: white; position: absolute; cursor: pointer;}
+.btn3 {width: 100px; height: 100px; margin-top: 300px; margin-left: 680px; text-align: center; font-size: 60px; background-color: white; position: absolute; cursor: pointer;}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>100UP!게임</title>
+    <link rel="stylesheet" href="./css/backup.css">
+    <script src="jquery-3.1.1.min.js"></script>
+</head>
+<body>
+    <div class="wrap">
+    <h1 class="title">신난다 재미난다 팅팅탱탱 백업게임!</h1>
+    <input class="back" type="text" value="0">
+    <button  class="pl"type="button">+</button>
+      <button class="ma" type="button">-</button>
+    </div>
+</body>
+    <script type="text/javascript">
+          var number = 0;
+    $(document).ready(function(){
+        
+        setInterval(function(){
+           if(number>=400){
+                number=0;
+                $(".back").val(number);
+           } else{
+               number+=100;
+                $(".back").val(number);
+           }
+        },3000);
+        
+        $(".pl").click(function(){
+           if(number>=400){
+                number=0;
+                $(".back").val(number);
+           } else{
+               number+=100;
+                $(".back").val(number);
+           }
+        });
+        
+        $(".ma").click(function(){
+           if(number<=0){
+               number=0;
+           } 
+            else{
+                number-=100;
+                 $(".back").val(number);
+            }
+        });
+  });
+
+        </script>
+</html>

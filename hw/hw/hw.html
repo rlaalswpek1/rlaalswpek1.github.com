@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>부등호 게임</title>
+    <link rel="stylesheet" href="../hw/css/hw.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+</head>
+<body>
+    <div class="wrap">
+       <h1 class="title">신난다 재미난다 팅팅탱탱 부등호게임!</h1>
+            <div class="box1">
+            </div>
+            <div class="box2">  
+            </div>
+            <div class="btn1" onclick="vs('>')">
+                >
+            </div>
+            <div class="btn2" onclick="vs('=')">
+                =
+            </div>
+            <div class="btn3" onclick="vs('<')">
+                <
+            </div>
+    </div>
+</body>
+<script>
+        
+        var no1 , no2
+        
+        no1 = Math.floor(Math.random() * 100) + 1;
+        no2 = Math.floor(Math.random() * 100) + 1;
+        
+        $(".box1").text(no1);
+        $(".box2").text(no2);
+        function vs(bu){
+            switch(bu){
+                case ">":
+                    if(no1>no2){
+                        alert("정답");
+                        location.href = "hw.html";   
+                    }
+                    else
+                        alert("틀림");
+                    break;
+                case "=":
+                    if(no1==no2){
+                        alert("정답");
+                        location.href = "hw.html";
+                    }
+                    else
+                        alert("틀림");
+                    break;
+                case "<":
+                    if(no1<no2){
+                        alert("정답");
+                        location.href = "hw.html";
+                    }
+                    else
+                        alert("틀림");
+                    break;
+            }
+        }
+    </script>
+</html>
